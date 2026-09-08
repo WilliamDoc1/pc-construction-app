@@ -1,0 +1,258 @@
+{
+  "company": {
+    "name": "PC Construction",
+    "tagline": "The Art of Luxury Craftsmanship",
+    "establishedYear": 1994,
+    "description": "Established in 1994, PC Construction addresses the need for practical master building solutions. Our hands-on, proactive approach and unwavering commitment to quality and service have transformed us into a premier construction company in South Africa, excelling in high-end luxury residential, commercial developments, timber roof engineering, and traditional thatching.",
+    "accreditations": [
+      "Master Builders Association (MBA)",
+      "National Home Builders Registration Council (NHBRC)",
+      "Thatchers Association of South Africa (TASA)",
+      "South African Technical Auditing Service (SATAS)"
+    ],
+    "offices": [
+      { "city": "Cape Town", "phone": "+27 (0)21 919 8397", "address": "20 Tarentaal Crescent, Okavango Park, Brackenfell" },
+      { "city": "Franschhoek", "phone": "+27 (0)21 876 2200", "address": "Main Road, Franschhoek Valley, 7690" },
+      { "city": "Stellenbosch", "phone": "+27 (0)21 887 1140", "address": "Technopark Campus, Stellenbosch" }
+    ]
+  },
+  "divisions": [
+    {
+      "id": "residential",
+      "title": "Luxury Residential",
+      "tagline": "Bespoke Architectural Estates & Coastal Villas",
+      "description": "Crafting bespoke private estates, high-end oceanfront villas, and modern architectural residences with flawless attention to detail.",
+      "heroImage": "/images/pc_hero_bantry_villa_1788880151974.jpg"
+    },
+    {
+      "id": "commercial",
+      "title": "Commercial",
+      "tagline": "Boutique Hospitality & Commercial Developments",
+      "description": "Executing premium commercial headquarters, wine estate hospitality pavilions, and luxury retail developments.",
+      "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "roofing",
+      "title": "Roofing & Timber",
+      "tagline": "Non-Conventional Roof Structures & Timber Engineering",
+      "description": "Specialising in intricate curved glulam beams, exposed timber trusses, steel flitch plates, pergolas, and architectural ceilings.",
+      "heroImage": "/images/pc_hero_roofing_timber_1788880244340.jpg"
+    },
+    {
+      "id": "thatch",
+      "title": "Thatch",
+      "tagline": "Traditional Thatching & Cape Dutch Historic Restorations",
+      "description": "Four decades of master thatching heritage, fire-retardant Cape reed roofs, and historic monument restorations across Southern Africa and abroad.",
+      "heroImage": "/images/pc_hero_heritage_thatch_1788880344746.jpg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "slug": "wave-villa-bantry-bay",
+      "title": "WAVE VILLA",
+      "location": "Bantry Bay, Cape Town",
+      "category": "Luxury Residential",
+      "credits": {
+        "architect": "ARRCC",
+        "interiorDesigner": "Cécile & Boyd",
+        "photographer": "Greg Cox",
+        "quantitySurveyor": "RLB Pentad Cape Town",
+        "constructionDivisions": ["Luxury Residential", "Roofing & Timber"]
+      },
+      "leadQuote": "Perched at the foot of Lion's Head, the residence seamlessly connects ocean vistas with raw structural steel, timber overhangs, and refined stone finishes.",
+      "narrative": "At the foot of Lion’s Head, ARRCC has masterfully reimagined this Atlantic Seaboard home, creating a seamless connection between ocean and mountain views. PC Construction was selected to execute the complex structural concrete, multi-tiered infinity pool, and cantilevered glulam ceiling overhangs, setting a new standard for luxury coastal living.",
+      "heroImage": "/images/pc_hero_bantry_villa_1788880151974.jpg",
+      "elevationSketchUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "/images/pc_hero_bantry_villa_1788880151974.jpg",
+        "/images/pc_hero_roofing_timber_1788880244340.jpg"
+      ],
+      "specifications": {
+        "structuralSystem": "Post-tensioned concrete slabs with structural steel framing",
+        "primaryMaterials": ["Garappa Hardwood", "Low-E Triple Glazing", "Dressed Table Mountain Sandstone"],
+        "roofType": "Standing-seam zinc roof with integrated LED soffit lighting",
+        "areaSquareMeters": 1450
+      }
+    },
+    {
+      "id": "proj-2",
+      "slug": "pearl-valley-timber-estate",
+      "title": "PEARL VALLEY ESTATE",
+      "location": "Paarl Winelands",
+      "category": "Roofing & Timber",
+      "credits": {
+        "architect": "Kritzinger Architects",
+        "photographer": "Karl Rogers Photography",
+        "quantitySurveyor": "Bernard James & Partners",
+        "constructionDivisions": ["Roofing & Timber"]
+      },
+      "leadQuote": "An intricate exposed timber roof structure boasting curved glulam arches, matte black steel tie-rods, and warm pine ceiling cladding.",
+      "narrative": "PC Roofing & Timber engineered and installed the sweeping curved roof trusses for this landmark equestrian estate villa. Using sustainably harvested Sugargum and European spruce glulam, the team achieved a column-free internal span of 18 meters, blending structural engineering with architectural warmth.",
+      "heroImage": "/images/pc_hero_roofing_timber_1788880244340.jpg",
+      "elevationSketchUrl": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "/images/pc_hero_roofing_timber_1788880244340.jpg",
+        "/images/pc_hero_bantry_villa_1788880151974.jpg"
+      ],
+      "specifications": {
+        "structuralSystem": "Curved glulam timber arches with concealed flitch plates",
+        "primaryMaterials": ["Sugargum Timber", "Spruce Glulam", "Steel Tie-Rods"],
+        "roofType": "Exposed architectural ceiling with acoustic backing",
+        "areaSquareMeters": 980
+      }
+    },
+    {
+      "id": "proj-3",
+      "slug": "silverbay-heritage-manor",
+      "title": "SILVERBAY MANOR",
+      "location": "Shelley Point, West Coast",
+      "category": "Thatch",
+      "credits": {
+        "architect": "Wynand Wilsenach",
+        "interiorDesigner": "Salomé Knijenburg",
+        "photographer": "Johann Jordaan",
+        "quantitySurveyor": "AMPS Quantity Surveyors",
+        "constructionDivisions": ["Thatch", "Luxury Residential"]
+      },
+      "leadQuote": "Cape Dutch heritage meets modern coastal architecture with hand-knotted Cape reed thatch, copper ridge binding, and whitewashed gables.",
+      "narrative": "Situated along the rocky coast of Shelley Point, Silverbay Manor represents a historic restoration and extension. PC Thatchers harvested high-density Albertinia reed to craft a 350mm thick fire-retardant thatched roof, preserving Cape Dutch heritage while incorporating modern double-glazed glass curtain walls.",
+      "heroImage": "/images/pc_hero_heritage_thatch_1788880344746.jpg",
+      "elevationSketchUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "/images/pc_hero_heritage_thatch_1788880344746.jpg",
+        "/images/pc_hero_bantry_villa_1788880151974.jpg"
+      ],
+      "specifications": {
+        "structuralSystem": "Eucalyptus pole roof framing with copper wire binding",
+        "primaryMaterials": ["Cape Reed Thatch", "Lime Plaster", "Slate Paving"],
+        "roofType": "Hand-cut 350mm thatched roof with SATAS fire treatment",
+        "areaSquareMeters": 1120
+      }
+    },
+    {
+      "id": "proj-4",
+      "slug": "constantia-winery-pavilion",
+      "title": "CONSTANTIA HOSPITALITY PAVILION",
+      "location": "Constantia Winelands",
+      "category": "Commercial",
+      "credits": {
+        "architect": "Kritzinger Architects",
+        "photographer": "Karl Rogers Photography",
+        "constructionDivisions": ["Commercial", "Roofing & Timber"]
+      },
+      "leadQuote": "A boutique winelands commercial tasting room featuring off-shutter concrete, glass curtain walls, and cantilevered timber trellises.",
+      "narrative": "Commissioned by a historic Constantia wine estate, PC Construction constructed this modern commercial tasting pavilion. The project integrates floor-to-ceiling double glazing with heavy timber pergolas and off-shutter concrete walls.",
+      "heroImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "elevationSketchUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "specifications": {
+        "structuralSystem": "Commercial reinforced concrete frame with curtain wall glazing",
+        "primaryMaterials": ["Off-Shutter Concrete", "Structural Glazing", "Oiled Oak Timber"],
+        "roofType": "Commercial flat roof with green roof garden",
+        "areaSquareMeters": 1200
+      }
+    },
+    {
+      "id": "proj-5",
+      "slug": "la-grange-de-cabriere",
+      "title": "LA GRANGE DE CABRIÈRE",
+      "location": "Franschhoek Valley",
+      "category": "Thatch",
+      "credits": {
+        "architect": "Steven Dugmore",
+        "photographer": "Stephen Fourie",
+        "quantitySurveyor": "Peppergreen QS",
+        "constructionDivisions": ["Thatch"]
+      },
+      "leadQuote": "Restoration of a historic French Huguenot barn with open Sugargum beams and authentic Spaansriet reed ceilings.",
+      "narrative": "Located in the heart of Franschhoek, PC Construction converted this historic barn into a luxury guest villa. The challenge was retaining the 150-year-old stone walls while installing new loft bedrooms, Spaansriet reed ceilings, and an outdoor braai entertainment pavilion.",
+      "heroImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "elevationSketchUrl": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "/images/pc_hero_heritage_thatch_1788880344746.jpg"
+      ],
+      "specifications": {
+        "structuralSystem": "Historic stone masonry with retrofitted timber framing",
+        "primaryMaterials": ["Sugargum Beams", "Spaansriet Ceilings", "Belgian Slate"],
+        "roofType": "Exposed timber rafters with natural reed ceiling",
+        "areaSquareMeters": 640
+      }
+    },
+    {
+      "id": "proj-6",
+      "slug": "house-combretum",
+      "title": "HOUSE COMBRETUM",
+      "location": "Durbanville Hills",
+      "category": "Luxury Residential",
+      "credits": {
+        "architect": "VR Architects",
+        "photographer": "Ezlu Media",
+        "constructionDivisions": ["Luxury Residential"]
+      },
+      "leadQuote": "Modern residential design rebuilt to capture panoramic views of the Drakenstein Mountains over an expansive outdoor deck.",
+      "narrative": "Positioned on a dramatic ridge in Durbanville, House Combretum seamlessly connects indoor entertainment lounges with a massive cantilevered timber deck and rim-flow swimming pool.",
+      "heroImage": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "elevationSketchUrl": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+        "/images/pc_hero_bantry_villa_1788880151974.jpg"
+      ],
+      "specifications": {
+        "structuralSystem": "Reinforced concrete skeleton with structural steel tie-backs",
+        "primaryMaterials": ["Balau Hardwood Decking", "Off-Shutter Concrete", "Architectural Glass"],
+        "roofType": "Insulated flat roof with sedum green planter beds",
+        "areaSquareMeters": 920
+      }
+    }
+  ],
+  "brochures": [
+    {
+      "id": "brochure-residential",
+      "serviceKey": "residential",
+      "title": "PC LUXURY RESIDENTIAL MONOGRAPH",
+      "subtitle": "Bespoke Coastal Estates & Architectural Villas",
+      "fileSize": "14 MB",
+      "pageCount": 6,
+      "pdfUrl": "#",
+      "coverImage": "/images/pc_hero_bantry_villa_1788880151974.jpg",
+      "description": "Comprehensive 6-spread publication featuring multi-level Atlantic Seaboard villas, post-tensioned cantilevers, and sub-millimeter joinery."
+    },
+    {
+      "id": "brochure-commercial",
+      "serviceKey": "commercial",
+      "title": "PC COMMERCIAL DEVELOPMENTS PORTFOLIO",
+      "subtitle": "Boutique Hospitality Pavilions & Retail Headquarters",
+      "fileSize": "12 MB",
+      "pageCount": 6,
+      "pdfUrl": "#",
+      "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "description": "Full-turnkey commercial construction publication detailing winelands tasting rooms, luxury lodges, and GBCSA green building standards."
+    },
+    {
+      "id": "brochure-timber",
+      "serviceKey": "timber",
+      "title": "PC ROOFING & TIMBER ENGINEERING GUIDE",
+      "subtitle": "Curved Glulam Arches & Exposed Timber Trusses",
+      "fileSize": "10 MB",
+      "pageCount": 6,
+      "pdfUrl": "#",
+      "coverImage": "/images/pc_hero_roofing_timber_1788880244340.jpg",
+      "description": "Technical engineering manual for 18m column-free glulam arches, laser-cut steel flitch plates, and SABS pressure impregnation."
+    },
+    {
+      "id": "brochure-thatch",
+      "serviceKey": "thatch",
+      "title": "PC THATCH & HERITAGE COMPENDIUM",
+      "subtitle": "Cape Reed Thatching & Monument Restorations",
+      "fileSize": "8 MB",
+      "pageCount": 6,
+      "pdfUrl": "#",
+      "coverImage": "/images/pc_hero_heritage_thatch_1788880344746.jpg",
+      "description": "Master craftsman guide to 350mm Albertinia hand-bound reed, SATAS chemical fire retardance, and historic Cape Dutch gable masonry."
+    }
+  ]
+}
